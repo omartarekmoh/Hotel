@@ -31,3 +31,14 @@ if (isset($_POST["submit"])) {
 } else {
   echo "There was an error!!!";
 }
+?>
+
+<script>
+  var err1 = "<?= $error_empty ?>";
+  var err2 = "<?= $error_check ?>"
+  var err3 = "<?= $error_date ?>"
+
+  if (err1 == false && err2 == false && err3 == false) {
+    $("#inputCity, #inputCheckIn, #inputCheckOut, #adult, #children, #room").val("");
+  }
+</script>

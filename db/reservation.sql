@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 12, 2021 at 02:55 PM
+-- Generation Time: Feb 12, 2021 at 03:27 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.1
 
@@ -38,13 +38,6 @@ CREATE TABLE `reservation` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `reservation`
---
-
-INSERT INTO `reservation` (`id`, `dist`, `check_in`, `check_out`, `adult_num`, `child_num`, `room_num`) VALUES
-(1, 'Mansoura', '2021-02-26', '2021-02-28', 1, 0, 3);
-
---
 -- Indexes for dumped tables
 --
 
@@ -62,7 +55,7 @@ ALTER TABLE `reservation`
 -- AUTO_INCREMENT for table `reservation`
 --
 ALTER TABLE `reservation`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
