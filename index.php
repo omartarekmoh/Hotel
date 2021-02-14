@@ -156,7 +156,7 @@ http://www.tooplate.com/view/2095-level
                                 </div>
                                 <div class="form-row clearfix pl-2 pr-2 tm-fx-col-xs">
                                     <p class="tm-margin-b-0" id="tmmmm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <a href="#" class="ie-10-ml-auto ml-auto mt-1 tm-font-semibold tm-color-primary">Need Help?</a>
+                                    <a href="users.php" class="ie-10-ml-auto ml-auto mt-1 tm-font-semibold tm-color-primary">Users</a>
                                 </div>
                             </form>
                         </div>
